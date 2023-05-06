@@ -1,0 +1,59 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    width: 800px;
+    max-width: fit-content;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button-layout {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: bisque;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: black;
+    outline: none;
+}
+
+.class-start-button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.class-next-button {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
